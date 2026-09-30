@@ -1,0 +1,111 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs and temp
+*.log
+*.bak
+*~
+
+# Data outputs (keep .gitkeep)
+/data/*
+!/data/.gitkeep
+
+# Raster sidecars and large images
+*.tif
+*.tif.aux.xml
+*.qgz
+
+# Spectral library raw files (large)
+/splib07/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+
+# Credentials / secrets
+/credentials/*.json
+.env
+
+# Model artifacts and caches
+*.pkl
+*.joblib
+.pytest_cache/
+# Python environment
+venv/
+.venv/
+
+# Satellite and training data
+data/
+
+# Generated outputs
+output/
+*.tif
+*.img
+
+# Trained models
+*.pkl
+*.joblib
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Node dependencies
+node_modules/
+frontend/node_modules/
+
+# Frontend build output
+frontend/dist/
+frontend/build/
+
+# Environment variables
+.env
+
+# QGIS files
+*.qgz~
+*.qgs~
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+frontend/public/output/
+*.tif
+credentials/
+splib07/
+global_training_dataset.csv
+geoprospect_antigravity_prompt.md

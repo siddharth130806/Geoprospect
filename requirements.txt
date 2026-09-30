@@ -1,0 +1,12 @@
+numpy==1.26.4
+pandas==2.3.3
+rasterio==1.4.4
+scikit-learn==1.7.2
+xgboost==3.2.0
+joblib==1.5.3
+requests==2.34.2
+earthengine-api==1.7.26
+hdbscan==0.8.38.post2
+scipy==1.13.0
+google-api-python-client==2.131.0
+google-auth==2.29.0
