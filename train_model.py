@@ -136,7 +136,7 @@ def train(data_dir):
     y_pred = model.predict(X_test_r)
     y_pred = np.argmax(y_pred, axis=1) if y_pred.ndim > 1 else y_pred
 
-    accuracy = accuracy_score(y_test, y_pred)
+    accuracy = accuracy_score(y_test_r, y_pred)
     print(f"\nOverall Accuracy: {accuracy:.4f}")
     print("\nClassification Report:")
     print(classification_report(

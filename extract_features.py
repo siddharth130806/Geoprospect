@@ -2,7 +2,7 @@ import ee
 import os
 import time
 
-ee.Initialize(project='mineral-detection-ai')
+ee.Initialize(project='geoprospect-ai-510214')
 
 
 def extract_features(bbox, year, job_id, num_pixels=50000):
@@ -156,7 +156,7 @@ def download_from_drive(job_id, year_start, year_end, output_dir):
     from googleapiclient.discovery import build
     from google.oauth2 import service_account
 
-    creds_path = os.path.join(os.path.dirname(__file__), 'credentials', 'drive_service_account.json')
+    creds_path = os.path.join(os.path.dirname(__file__), 'backend', 'credentials', 'drive_service_account.json')
     creds = service_account.Credentials.from_service_account_file(
         creds_path,
         scopes=['https://www.googleapis.com/auth/drive.readonly']

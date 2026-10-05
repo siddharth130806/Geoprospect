@@ -448,7 +448,7 @@ function MapViewer() {
             <div style={{ display: "flex", alignItems: "center", gap: "10px", marginBottom: "6px" }}>
               <span style={{ fontSize: "22px" }}>🛰️</span>
               <h2 style={{ margin: 0, fontSize: "18px", fontWeight: 700, color: "#fff", letterSpacing: "-0.5px" }}>
-                HADES AI
+                GeoProspect AI
               </h2>
             </div>
             <p style={{ margin: 0, fontSize: "12px", color: "#94a3b8", lineHeight: "1.4" }}>
